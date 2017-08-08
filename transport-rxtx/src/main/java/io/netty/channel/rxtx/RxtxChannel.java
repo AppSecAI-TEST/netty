@@ -20,6 +20,7 @@ import gnu.io.CommPortIdentifier;
 import gnu.io.SerialPort;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelPromise;
+import io.netty.channel.PreferHeapByteBufAllocator;
 import io.netty.channel.oio.OioByteStreamChannel;
 
 import java.net.SocketAddress;
